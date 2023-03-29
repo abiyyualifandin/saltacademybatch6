@@ -1,0 +1,16 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "this is my website",
+  "main": "index.html",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "dev": "npx tailwind -i ./src/styles/tailwind.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
